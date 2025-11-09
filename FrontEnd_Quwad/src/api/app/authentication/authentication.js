@@ -1,7 +1,6 @@
-
 //Sign up
-function signUp(payload) {
-    
-}
+// function signUp(payload) {
+
+// }
 
 // Sign in
