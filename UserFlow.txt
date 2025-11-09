@@ -1,0 +1,17 @@
+01. Developer login to Quwad.
+02. Developer create a project.
+03. Developer create API end points for each price model.
+04. Developer add this API in their actual project code logic.
+
+05. User(User of developers application) logs in to app(developers application).
+06. User purchase a subscription.
+07. App purchase API is triggered.
+08. App backend will process payment.
+09. If payment is successful, then Quwad API is called.
+10. Quwad will create a license and store it in DB and sends response.
+
+11. User login
+12. App authentication API triggered.
+13. App backend makes Quwad authentication API call.
+14. Quwad responds by checking email id and license stored in its db.
+15. Based on the returned value, app logic will either authorize or sign-out the user.
