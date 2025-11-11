@@ -310,7 +310,7 @@ function Home() {
           {/* Life Time Deal */}
           <div className="pb-[50px] grid gap-[50px] border border-[#713DEC] rounded-[10px]">
             <div className="py-[20px] bg-[#713DEC] text-[#fff] rounded-t-[10px]">
-              <h3 className="font-medium text-center">Life Time Plan</h3>
+              <h3 className="font-medium text-center">Life Time Deal</h3>
               <p className="text-[12px] text-center">Limited time offer</p>
             </div>
             <div className="flex justify-center">

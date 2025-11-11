@@ -1,6 +1,9 @@
-let url = import.meta.env.VITE_BackEnd_URL || 'http://localhost:8000'
+let url = import.meta.env.VITE_BackEnd_URL
+// let url = 'http://localhost:8000'
 
-async function getWaitingList(payload) {
+async function joinWaitingList(payload) {
+  // console.log(payload)
+
   try {
     let res = await fetch(`${url}/waitinglist`, {
       method: 'POST',
@@ -17,4 +20,4 @@ async function getWaitingList(payload) {
   }
 }
 
-export { getWaitingList }
+export { joinWaitingList }
